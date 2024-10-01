@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+}
+  
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+  
+.header, .aside, .footer, .post {
+    background: rgb(215, 210, 205);
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post {
+    padding: 1em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header > * {
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    margin-left: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.link {
+    padding: 10px;
+}
+
+.link:hover {
+    background-color: rgb(61, 73, 87);
+    color: whitesmoke;
+}
+
+#icon {
+    height: 2em;
+    width: 2em;
+}
+
+.main {
+    background: none;
+}
+
+.aside {
+    width: 10%;
+}
+  
+.footer {
+    text-align: center;
+    font-size: larger;
+}
+  
+@media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+}
+  
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .left-bar { order: 1; } 
+    .main    { order: 2; }
+    .right-bar { order: 3; }
+    .footer  { order: 4; }
+}
+
+@media all and (max-width: 799px) {
+    .aside { display: none;}
+}
+  
+body {
+    padding: 2em; 
+}
