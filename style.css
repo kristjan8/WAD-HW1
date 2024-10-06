@@ -19,6 +19,14 @@
     padding: 1em;
 }
 
+.post + .post {
+    margin-top: 10px;
+}
+
+.post ~ .post {
+    border-top: 1px solid gray;
+}
+
 .header {
     display: flex;
     flex-direction: row;
