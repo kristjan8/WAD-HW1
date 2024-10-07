@@ -1,0 +1,13 @@
+Web Application Development
+Homework no. 1
+------------------------------------
+Group U:
+Kristjan Karl Pevgonen
+Rando Roosik
+Kristjan Siim
+------------------------------------
+Repository:
+https://github.com/kristjan8/WAD-HW1
+------------------------------------
+Github page:
+https://kristjan8.github.io/WAD-HW1

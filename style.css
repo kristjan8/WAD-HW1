@@ -26,6 +26,10 @@
     border-top: 1px solid gray;
 }
 
+.post-img{
+    max-width: 100%;
+}
+
 .header {
     display: flex;
     flex-direction: row;
